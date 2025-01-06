@@ -18,10 +18,10 @@ opam init
 ```
 or first install a switch, as in
 ```
-opam install switch 4.14.0
+opam switch create 4.14.0
 ```
 
-basically, you can follow the instructions / advices the promt 'll give ya  
+basically, you can follow the instructions / advices the prompt 'll give ya  
 happy coding!  
 
 ### using Linux  
