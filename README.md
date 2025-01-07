@@ -12,7 +12,7 @@ then check if that worked
 ```
 opam --version
 ```
-then we 
+then we do  
 ```
 opam init
 ```
