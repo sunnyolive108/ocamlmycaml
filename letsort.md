@@ -1,5 +1,6 @@
 
 
+
 ;;
 let rec quicksort lst = 
   match lst with
@@ -14,4 +15,7 @@ let rec quicksort lst =
           partition left (x :: right) xs
     in
     let left, right = partition [] [] rest in
-    quicksort left @ [pivot] @ quicksort right;;
+    quicksort left
+    @ [pivot]
+    @ quicksort right;;
+    
