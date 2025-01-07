@@ -20,4 +20,12 @@ let rec quicksort lst =
     @ quicksort right;;
 
 
-    
+    -- function for push and pop --
+
+;;
+let push x stack = x :: stack
+
+let pop = function [] -> None | head :: tail -> Some (head, tail)
+
+-- simple and clean
+O(1) --
